@@ -75,3 +75,12 @@ function applyDiscount(price, discountPercentage) {
 }
 let discountedAmount = applyDiscount(100, 0.2);// Enter the price and discount percentage
 console.log(`Discounted Amount: $${discountedAmount}`);// Output: Discounted amount
+
+// Task 10: Arrow Function - Loyalty Points
+
+function calculatePoints(purchaseAmount) {
+    let points = purchaseAmount * 0.1;// Enter the purchase amount
+    return points;
+}
+let loyaltyPoints = calculatePoints(200);// Enter the purchase amount
+console.log(`Loyalty Points: ${loyaltyPoints}`);// Output: Loyalty points

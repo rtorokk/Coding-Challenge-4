@@ -23,4 +23,12 @@ while (stock > 0) {
   stock--;// Enter the initial stock
   console.log(`Stock available: ${stock}`);// Output: Stock available
 }
+console.log('Out of stock');// Output: Out of stock
 
+// Task 4: Do-While Loop - Customer Survey
+
+let responses = 0;// Enter the initial responses
+do {
+    console.log(`Customer response: ${responses}`);// Output: Customer response
+    responses++;// Enter the initial responses
+} while (responses <= 3);

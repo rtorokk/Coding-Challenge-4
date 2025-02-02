@@ -32,3 +32,15 @@ do {
     console.log(`Customer response: ${responses}`);// Output: Customer response
     responses++;// Enter the initial responses
 } while (responses <= 3);
+
+// Task 5: For-In Loop - Employee Information
+
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+    };// Enter the employee information
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);// Output: Employee information
+}
+   

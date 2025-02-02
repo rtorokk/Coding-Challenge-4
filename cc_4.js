@@ -10,6 +10,17 @@ console.log(`Final amount after discount: $${finalAmount}`); // Output: Final am
 // Task 2: For Loop - Sales Report
 
 let sales = [100, 230, 55, 75, 120];// Enter the sales data
+let totalSales = 0;
+
 for (let i = 0; i < sales.length; i++) {
-  console.log(`Total Sales/ day: $${sales[i]}`); // Output: Day 1: $100, Day 2: $230, Day 3: $55, Day 4: $75, Day 5: $120
+  console.log(`Total Sales/ day: $${sales[i]}`)// Output: day
+  }
+
+// Task 3: While Loop - Inventory Depletion
+
+let stock = 10// Enter the initial stock
+while (stock > 0) {
+  stock--;// Enter the initial stock
+  console.log(`Stock available: ${stock}`);// Output: Stock available
 }
+

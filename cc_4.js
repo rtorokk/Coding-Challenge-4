@@ -57,3 +57,12 @@ let orders = [101, 102, 103];// Enter the order numbers
 orders.forEach(function(order) {
     console.log(`Order Number: ${order}`);// Output: Order numbers
 });
+
+// Task 8: Function Declaration - Tax Calculation
+
+function calculateTax(amount, taxRate) {
+    let tax = amount * taxRate;// Enter the amount and tax rate
+    return tax;
+}
+let taxAmount = calculateTax(100, 0.1);// Enter the amount and tax rate
+console.log(`Tax Amount: $${taxAmount}`);// Output: Tax amount
